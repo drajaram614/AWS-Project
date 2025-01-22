@@ -1,10 +1,16 @@
 # Serverless Espresso Project
 
+![Main Title Image](./etc/title.png)
+
 ## Overview
 The Serverless Espresso Project simulates a coffee ordering system using a serverless architecture on AWS. It is designed to efficiently handle coffee orders while maintaining cost-effectiveness and scalability. This project demonstrates a practical implementation of various AWS services to create a fully functional, secure, and monitored application.
 
+![Logo Image](./etc/logo.png)
+
 ## Architecture and Workflow
 The project leverages multiple AWS services to create a seamless experience for both users and administrators. Below is a high-level description of the architecture:
+
+![Project Diagram](./etc/Project%20Diagram.png)
 
 1. **Frontend:** A React application deployed using AWS Amplify provides a user-friendly interface for coffee ordering.
 2. **API Gateway:** RESTful APIs are created to facilitate communication between the frontend, backend, and database.
@@ -13,6 +19,8 @@ The project leverages multiple AWS services to create a seamless experience for 
 5. **Amazon DynamoDB:** Stores order details for quick and efficient data retrieval.
 6. **Amazon SNS:** Sends notifications about order status to customers and administrators.
 7. **Amazon CloudWatch:** Monitors application performance, logs errors, and provides dashboards for analytics.
+
+![UI](./etc/UI.png)
 
 ---
 
@@ -24,6 +32,8 @@ The project leverages multiple AWS services to create a seamless experience for 
   - Writing and deploying Node.js-based serverless functions.
   - Managing triggers and events for Lambda functions.
 
+  ![Lambda Functions](./etc/Lambda%20Functions.png)
+
 ### **2. Amazon API Gateway**
 - **Purpose:** Acts as a bridge between the frontend and backend, enabling secure communication.
 - **Key Features:**
@@ -34,6 +44,8 @@ The project leverages multiple AWS services to create a seamless experience for 
   - Configuring API Gateway endpoints.
   - Setting up security mechanisms like authentication and rate limiting.
 
+![API Gateway Integration](./etc/API%20Gateway%20Integration.png)
+
 ### **3. Amazon DynamoDB**
 - **Purpose:** A NoSQL database for storing and managing order data.
 - **Key Features:**
@@ -42,6 +54,8 @@ The project leverages multiple AWS services to create a seamless experience for 
 - **Skills Obtained:**
   - Designing DynamoDB tables and indexes.
   - Automating backups to S3 using Lambda and EventBridge.
+
+    ![AWS DynamoDB](./etc/DynamoDB.png)
 
 ### **4. AWS Step Functions**
 - **Purpose:** Orchestrates the sequence of steps involved in order processing.
@@ -52,6 +66,8 @@ The project leverages multiple AWS services to create a seamless experience for 
   - Designing and deploying workflows.
   - Integrating Step Functions with other AWS services.
 
+  ![AWS Stepfunctions](./etc/AWS%20Step%20Functions.png)
+
 ### **5. Amazon SNS**
 - **Purpose:** Sends notifications about coffee orders and system anomalies.
 - **Key Features:**
@@ -61,6 +77,9 @@ The project leverages multiple AWS services to create a seamless experience for 
   - Setting up notification topics and subscriptions.
   - Configuring notifications based on CloudWatch alarms.
 
+  ![AWS SNS 1](./etc/AWS%20SNS%201.png)
+  ![AWS SNS 2](./etc/AWS%20SNS%202.png)
+
 ### **6. Amazon CloudWatch**
 - **Purpose:** Monitors application health and logs system events.
 - **Key Features:**
@@ -69,6 +88,10 @@ The project leverages multiple AWS services to create a seamless experience for 
 - **Skills Obtained:**
   - Creating dashboards and alarms.
   - Querying logs for debugging.
+
+    ![Cloudwatch Alarms 1](./etc/Cloudwatch%20Alarm1.png)
+  ![Cloudwatch Alarms 2](./etc/Cloudwatch%20Alarm2.png)
+    ![Cloudwatch Metrics](./etc/Cloudwatch%20Metrics.png)
 
 ### **7. AWS Amplify**
 - **Purpose:** Deploys the frontend React application.
@@ -85,6 +108,9 @@ The project leverages multiple AWS services to create a seamless experience for 
 - **Skills Obtained:**
   - Configuring and integrating security services.
   - Writing custom rules for WAF.
+
+      ![GuardDuty](./etc/GuardDuty.png)
+      ![WAF](./etc/WAF.png)
 
 ---
 
